@@ -7,6 +7,7 @@
     <title>CivEarth 🌏 1:500 地球生存服</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
+    <!--
     <script>
         document.addEventListener('DOMContentLoaded', () => {
 
@@ -34,6 +35,7 @@
 
         });
     </script>
+    -->
 </head>
 
 <body>
@@ -41,6 +43,7 @@
 
     <!-- page-1 -->
     <div class="hero is-fullheight">
+        <!--
         <div class="hero-head">
             <div class="container">
                 <nav class="navbar" style="font-size: 1.125rem;padding-top: 2rem;">
@@ -73,22 +76,22 @@
                 </nav>
             </div>
         </div>
+        -->
         <div class="hero-body">
             <div class="container">
                 <div class="columns">
                     <div class="column is-5">
-                        <h1 class="title" style="font-weight: 700; font-size: 5rem;">CivEarth开启新纪元</h1>
+                        <h1 class="title page-1-title">CivEarth开启新纪元</h1>
                         <br>
-                        <h4 class="subtitle" style="line-height: 2rem;">
+                        <p class="subtitle card-subtitle">
                             历史的长河最终会汇聚在一起，现在OldEarth与ViEarth正式合并，全新的1:500地球地图，让您在Minecraft世界中享受真实世界的快感与刺激
-                        </h4>
+                        </p>
                         <br>
-                        <a href="#page-2" class="button is-link is-rounded" style="font-size: 1.125rem;">现在开玩</a>
+                        <a href="#page-2" class="button is-link is-rounded link-button">现在开玩</a>
                     </div>
                     <div class="column">
                         <!--<video src="#" style="border-radius:24px;"  muted autoplay loop></video>-->
-                        <img src="cover.png" style="border-radius:24px;box-shadow:  20px 20px 60px #cfcfcf,
-                        -20px -20px 60px #ffffff;" alt="">
+                        <img src="cover.png" class="page-1-video" alt="">
                         <p class="has-text-centered">Video by DryRedstone</p>
                     </div>
                 </div>
@@ -113,55 +116,148 @@
         </div> 
     </div>
 -->
-    <div id="page-2" class="hero is-medium">
-        <div class="hero-body">
+    <div id="page-2" class="hero is-fullheight">
+        <!--
+        <div class="hero-head">
             <div class="container">
-                <h1 class="title has-text-centered" style="font-weight: 700; font-size: 5rem;">如何游玩</h1>
+                <nav class="navbar" style="font-size: 1.125rem;padding-top: 2rem;">
+                    <div class="navbar-brand">
+                        <span class="navbar-burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="/" class="navbar-item is-active">
+                                首页
+                            </a>
+                            <a class="navbar-item">
+                                玩家Wiki
+                            </a>
+                            <a href="http://game.viearthmc.cn:8123/" target="_blank" class="navbar-item">
+                                在线地图
+                            </a>
+                            <a href="https://api.oldearth.top" target="_blank" class="navbar-item">
+                                OldEarth皮肤站
+                            </a>
+                            <a href="https://skin.windycloud.cn/" target="_blank" class="navbar-item">
+                                Windy皮肤站
+                            </a>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
-    </div>
-    <div class="hero">
+        -->
         <div class="hero-body">
             <div class="container">
                 <div class="columns">
-                    <div class="column has-background-danger-light is-5" style="padding:3rem 2rem; border-radius:24px;box-shadow:  20px 20px 60px #cfcfcf,
-                    -20px -20px 60px #ffffff;">
-                        <h1 class="title" style="font-weight: 700; font-size: 3rem;">通过Mojang账户</h1>
+                    <div class="column page-2-card-mojang has-background-danger-light has-text-centered">
+                        <h1 class="title page-2-title has-text-centered">购买游戏</h1>
                         <br>
-                        <div class="block subtitle" style="line-height: 2rem;">
-                            服务器地址：<br>
-                            JAVA版：game.viearthmc.cn<br>
-                            基岩版：game.viearthmc.cn<br>
-                            JAVA版SakuraFrp分流：cn-zj-bgp.sakurafrp.com:22746
-                        </div>
+                        <p class="subtitle card-subtitle">
+                            Minecraft是属于Mojang工作室的游戏产品，您需注册Mojang账户并购买游戏本体即可参与游戏。
+                        </p>
                         <br>
-                        <a href="https://www.minecraft.net" target="_blank" class="button is-danger is-rounded"
-                            style="font-size: 1.125rem;">购买游戏</a>
+                        <a href="https://www.minecraft.net" class="button is-danger is-rounded link-button"
+                            target="_blank">注册账户</a>
                     </div>
-                    <div class="column"></div>
+                    <div class="column" style="max-width: 5rem;"></div>
+                    <div class="column page-2-card-qq has-background-info-light has-text-centered">
+                        <h1 class="title page-2-title has-text-centered">获取地址</h1>
+                        <br>
+                        <p class="subtitle card-subtitle">
+                            加入QQ群，和本服所有的玩家一起讨论、交流、游玩，群公告有详细的服务器地址，供您选择。
+                        </p>
+                        <br>
+                        <a href="https://jq.qq.com/?_wv=1027&k=hiGpNZmC" class="button is-info is-rounded link-button"
+                            target="_blank"">加入群聊</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--
+    <div class=" hero is-fullheight">
+                            <div class="hero-body">
+                                <div class="container">
+                                    <h1 class="title has-text-centered" style="font-weight: 700; font-size: 5rem;">加入 QQ
+                                        群 : <a href="https://jq.qq.com/?_wv=1027&k=i2sguR5X">1019014220</a></h1>
+                                </div>
+                            </div>
+                            <footer class="hero-foot" style="padding: 2rem;">
+                                <div class="has-text-centered">
+                                    <p>
+                                        CivEarth &copy; 2021.
+                                        <br>
+                                        Design by 「nowcube」青雨
+                                    </p>
+                                </div>
+                            </footer>
+                    </div>
 
-    <!-- page-3 -->
-    <div class="hero is-fullheight">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title has-text-centered" style="font-weight: 700; font-size: 5rem;">加入 QQ 群 : <a
-                        href="https://jq.qq.com/?_wv=1027&k=i2sguR5X">1019014220</a></h1>
-            </div>
-        </div>
-        <footer class="hero-foot" style="padding: 2rem;">
-            <div class="has-text-centered">
-                <p>
-                    CivEarth &copy; 2021.
-                    <br>
-                    Design by 「nowcube」青雨
-                </p>
-            </div>
-        </footer>
-    </div>
+                    <div class="hero">
+                        <div class="hero-body">
+                            <div class="container">
+                                <div class="columns">
+                                    <div class="column has-background-info-light is-3" style="padding:3rem 2rem; border-radius:24px;box-shadow:  20px 20px 60px #cfcfcf,
+                    -20px -20px 60px #ffffff;">
+                                        <h1 class="title" style="font-weight: 700; font-size: 3rem;">Step 1<br>加入QQ群
+                                        </h1>
+                                        <br>
+                                        <div class="block subtitle" style="line-height: 2rem;">
+                                            服务器地址：<br>
+                                            JAVA版：game.viearthmc.cn<br>
+                                            基岩版：game.viearthmc.cn<br>
+                                            JAVA版SakuraFrp分流：cn-zj-bgp.sakurafrp.com:22746
+                                        </div>
+                                        <br>
+                                        <a href="https://www.minecraft.net" target="_blank"
+                                            class="button is-danger is-rounded" style="font-size: 1.125rem;">购买游戏</a>
+                                    </div>
+                                    <div class="column"></div>
+                                    <div class="column has-background-danger-light is-3" style="padding:3rem 2rem; border-radius:24px;box-shadow:  20px 20px 60px #cfcfcf,
+                    -20px -20px 60px #ffffff;">
+                                        <h1 class="title" style="font-weight: 700; font-size: 3rem;">通过Mojang账户</h1>
+                                        <br>
+                                        <div class="block subtitle" style="line-height: 2rem;">
+                                            服务器地址：<br>
+                                            JAVA版：game.viearthmc.cn<br>
+                                            基岩版：game.viearthmc.cn<br>
+                                            JAVA版SakuraFrp分流：cn-zj-bgp.sakurafrp.com:22746
+                                        </div>
+                                        <br>
+                                        <a href="https://www.minecraft.net" target="_blank"
+                                            class="button is-danger is-rounded" style="font-size: 1.125rem;">购买游戏</a>
+                                    </div>
+                                    <div class="column"></div>
+                                    <div class="column has-background-danger-light is-3" style="padding:3rem 2rem; border-radius:24px;box-shadow:  20px 20px 60px #cfcfcf,
+                    -20px -20px 60px #ffffff;">
+                                        <h1 class="title" style="font-weight: 700; font-size: 3rem;">通过Mojang账户</h1>
+                                        <br>
+                                        <div class="block subtitle" style="line-height: 2rem;">
+                                            服务器地址：<br>
+                                            JAVA版：game.viearthmc.cn<br>
+                                            基岩版：game.viearthmc.cn<br>
+                                            JAVA版SakuraFrp分流：cn-zj-bgp.sakurafrp.com:22746
+                                        </div>
+                                        <br>
+                                        <a href="https://www.minecraft.net" target="_blank"
+                                            class="button is-danger is-rounded" style="font-size: 1.125rem;">购买游戏</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+
+
+
+                    <!-- page-3 -->
+
 
 </body>
 
