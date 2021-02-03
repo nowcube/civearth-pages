@@ -1,1 +1,0 @@
-# CivEarth homepage & Wiki
